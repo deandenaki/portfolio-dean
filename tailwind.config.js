@@ -4,7 +4,12 @@ module.exports = {
     "./public/index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        josefinsans: ["Josefin Sans", "sans-serif"],
+        lexend: ["Lexend", "sans-serif"]
+      }
+    },
   },
   plugins: [],
 }
